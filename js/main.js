@@ -46,7 +46,7 @@ $(document).ready(function(){
             <div class="row">
             <div class="col-md-3">
               <img class="img-thumbnail avatar" src="${user.avatar_url}">
-              <a target="_blank" class="btn btn-primary btn-block" href="${user.html_url}">View Profile</a>
+              <a target="_blank" class="btn btn-success btn-block" href="${user.html_url}">View Profile</a>
             </div>
             <div class="col-md-9">
               <span class="badge badge-dark">Public Repos: ${user.public_repos}</span>
